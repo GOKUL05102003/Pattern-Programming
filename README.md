@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐍 Python Daily Pattern Programming
+# Python Daily Pattern Programming
 
 **A curated daily collection of pattern printing challenges to master loops, logic, and problem-solving in Python.**
 
@@ -79,8 +79,3 @@ When solving any pattern problem, follow this 4-step framework:
 - If you have any feedback, ideas, or suggestions, feel free to open an **Issue**!
 - If you find this project helpful for your learning journey, please leave a **Star ⭐** to support the repository.
 
----
-
-<div align="center">
-  <sub>Made with ❤️ and Python. Happy Coding!</sub>
-</div>
