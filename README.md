@@ -35,13 +35,14 @@ This repository tracks my journey of uploading **at least one new pattern proble
 ```plaintext
 Patterns/
 │
-├── Star-Pattern/                  # Star & symbol patterns
-│   ├── LeftSideTriangle.py        # Day 01: Left-sided upright triangle
-│   └── LeftReverseTriangle.py     # Day 02: Inverted left-sided triangle
+├── Star-Pattern/                    # Star & symbol patterns
+│   ├── LeftSideTriangle.py          # Day 01: Left-sided upright triangle
+│   ├── LeftReverseTriangle.py       # Day 02: Inverted left-sided triangle
+│   └── LeftTriangelOutline.py       # Day 03: Hollow left-sided triangle outline
 │
-├── Number-Pattern/                # (Upcoming) Number triangles, Pascal, Floyd's
-├── Alphabet-Pattern/              # (Upcoming) Character pyramids, letter matrices
-└── Advanced-Pattern/              # (Upcoming) Hollow shapes, butterfly, spirals
+├── Number-Pattern/                  # (Upcoming) Number triangles, Pascal, Floyd's
+├── Alphabet-Pattern/                # (Upcoming) Character pyramids, letter matrices
+└── Advanced-Pattern/                # (Upcoming) Hollow shapes, butterfly, spirals
 ```
 
 ---
@@ -52,6 +53,7 @@ Patterns/
 |:---:|:---|:---:|:---:|:---|
 | **01** | Left-Sided Triangle | Star | [`LeftSideTriangle.py`](./Star-Pattern/LeftSideTriangle.py) | `*`<br>`**`<br>`***` |
 | **02** | Left Reverse Triangle | Star | [`LeftReverseTriangle.py`](./Star-Pattern/LeftReverseTriangle.py) | `***`<br>`**`<br>`*` |
+| **03** | Left Triangle Outline | Star | [`LeftTriangelOutline.py`](./Star-Pattern/LeftTriangelOutline.py) | `*`<br>`* *`<br>`*****` |
 
 ---
 
@@ -59,8 +61,8 @@ Patterns/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/Python-Patterns.git
-cd Python-Patterns
+git clone https://github.com/GOKUL05102003/Pattern-Programming.git
+cd Pattern-Programming
 ```
 
 ### 2. Common Run Commands
@@ -73,12 +75,13 @@ python <folder-name>/<file-name>.py
 # Examples:
 python Star-Pattern/LeftSideTriangle.py
 python Star-Pattern/LeftReverseTriangle.py
+python Star-Pattern/LeftTriangelOutline.py
 ```
 
 ### 3. Provide Input
 When prompted, enter the number of rows (e.g., `5`):
 ```text
-enter no. of Rows: 5
+Enter the no. of Rows: 5
 ```
 
 ---
@@ -89,7 +92,7 @@ When solving any pattern problem, follow this 4-step framework:
 
 1. **Rows (Outer Loop):** Count the total rows ($n$). Loop from `1` to `n` (or `n` down to `1` for reverse patterns).
 2. **Spaces (Inner Loop 1):** Determine if spaces depend on the row index (e.g., $n - i$).
-3. **Symbols / Values (Inner Loop 2):** Identify how characters change per line (e.g., $2i - 1$, $i$, etc.).
+3. **Symbols / Values (Inner Loop 2):** Identify how characters change per line (e.g., boundary conditions `j == 1 or j == i or i == n` for outlines).
 4. **New Line:** Print a line break after each row finishes printing.
 
 ---
