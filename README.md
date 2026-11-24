@@ -38,7 +38,8 @@ Patterns/
 ├── Star-Pattern/                    # Star & symbol patterns
 │   ├── LeftSideTriangle.py          # Day 01: Left-sided upright triangle
 │   ├── LeftReverseTriangle.py       # Day 02: Inverted left-sided triangle
-│   └── LeftTriangelOutline.py       # Day 03: Hollow left-sided triangle outline
+│   ├── LeftTriangelOutline.py       # Day 03: Hollow left-sided triangle outline
+│   └── LeftTriangelInvertedOutline.py # Day 04: Hollow inverted left-sided triangle outline
 │
 ├── Number-Pattern/                  # (Upcoming) Number triangles, Pascal, Floyd's
 ├── Alphabet-Pattern/                # (Upcoming) Character pyramids, letter matrices
@@ -54,6 +55,7 @@ Patterns/
 | **01** | Left-Sided Triangle | Star | [`LeftSideTriangle.py`](./Star-Pattern/LeftSideTriangle.py) | `*`<br>`**`<br>`***` |
 | **02** | Left Reverse Triangle | Star | [`LeftReverseTriangle.py`](./Star-Pattern/LeftReverseTriangle.py) | `***`<br>`**`<br>`*` |
 | **03** | Left Triangle Outline | Star | [`LeftTriangelOutline.py`](./Star-Pattern/LeftTriangelOutline.py) | `*`<br>`* *`<br>`*****` |
+| **04** | Inverted Left Triangle Outline | Star | [`LeftTriangelInvertedOutline.py`](./Star-Pattern/LeftTriangelInvertedOutline.py) | `*****`<br>`* *`<br>`*` |
 
 ---
 
@@ -76,6 +78,7 @@ python <folder-name>/<file-name>.py
 python Star-Pattern/LeftSideTriangle.py
 python Star-Pattern/LeftReverseTriangle.py
 python Star-Pattern/LeftTriangelOutline.py
+python Star-Pattern/LeftTriangelInvertedOutline.py
 ```
 
 ### 3. Provide Input
