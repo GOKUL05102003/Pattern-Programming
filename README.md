@@ -1,27 +1,12 @@
+
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python Logo" width="75" height="75" />
-
-# Python Daily Pattern Programming
-
-**A curated daily collection of pattern printing challenges to master loops, logic, and problem-solving in Python.**
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-Python%203.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge" />
-  <img src="https://img.shields.io/badge/Skill-Problem%20Solving-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="Problem Solving Badge" />
-  <img src="https://img.shields.io/badge/Challenge-Daily%20Uploads-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Daily Badge" />
-  <img src="https://img.shields.io/badge/Status-Active-blue?style=for-the-badge" alt="Status Badge" />
-</p>
-
-[Browse Patterns](#-daily-patterns-tracker) • [Repository Structure](#-repository-structure) • [How to Run](#-how-to-run) • [Logic Cheat Sheet](#-logic-building-cheat-sheet)
-
-</div>
 
 ---
 
 ## 📌 About The Project
 
 Pattern printing is one of the best ways to build a rock-solid foundation in:
+
 - Nested loop mechanics (outer loops for rows, inner loops for columns/spaces)
 - Mathematical and index manipulation
 - Spatial reasoning and algorithmic thinking
@@ -42,7 +27,8 @@ Patterns/
 │   ├── LeftTriangleInvertedOutline.py # Day 04: Hollow inverted left-sided triangle outline
 │   ├── RigthSideTriangle.py         # Day 05: Right-sided upright triangle
 │   ├── RightInvertedTriangle.py     # Day 06: Inverted right-sided triangle
-│   └── RightTriangleOutline.py      # Day 07: Hollow right-sided triangle outline
+│   ├── RightTriangleOutline.py      # Day 07: Hollow right-sided triangle outline
+│   └── RightTriangleInvertedOutline.py # Day 08: Hollow inverted right-sided triangle outline
 │
 ├── Number-Pattern/                  # (Upcoming) Number triangles, Pascal, Floyd's
 ├── Alphabet-Pattern/                # (Upcoming) Character pyramids, letter matrices
@@ -57,23 +43,26 @@ Patterns/
 |:---:|:---|:---:|:---:|:---|
 | **01** | Left-Sided Triangle | Star | [`LeftSideTriangle.py`](./Star-Pattern/LeftSideTriangle.py) | `*`<br>`**`<br>`***` |
 | **02** | Left Reverse Triangle | Star | [`LeftReverseTriangle.py`](./Star-Pattern/LeftReverseTriangle.py) | `***`<br>`**`<br>`*` |
-| **03** | Left Triangle Outline | Star | [`LeftTriangleOutline.py`](./Star-Pattern/LeftTriangleOutline.py) | `*`<br>`* *`<br>`*****` |
-| **04** | Inverted Left Triangle Outline | Star | [`LeftTriangleInvertedOutline.py`](./Star-Pattern/LeftTriangleInvertedOutline.py) | `*****`<br>`* *`<br>`*` |
+| **03** | Left Triangle Outline | Star | [`LeftTriangleOutline.py`](./Star-Pattern/LeftTriangleOutline.py) | `*`<br>`**`<br>`* *`<br>`*  *`<br>`*****` |
+| **04** | Inverted Left Triangle Outline | Star | [`LeftTriangleInvertedOutline.py`](./Star-Pattern/LeftTriangleInvertedOutline.py) | `*****`<br>`*  *`<br>`* *`<br>`**`<br>`*` |
 | **05** | Right-Sided Triangle | Star | [`RigthSideTriangle.py`](./Star-Pattern/RigthSideTriangle.py) | `  *`<br>` **`<br>`***` |
 | **06** | Right Inverted Triangle | Star | [`RightInvertedTriangle.py`](./Star-Pattern/RightInvertedTriangle.py) | `***`<br>` **`<br>`  *` |
-| **07** | Right Triangle Outline | Star | [`RightTriangleOutline.py`](./Star-Pattern/RightTriangleOutline.py) | `  *`<br>` * *`<br>`*****` |
+| **07** | Right Triangle Outline | Star | [`RightTriangleOutline.py`](./Star-Pattern/RightTriangleOutline.py) | `    *`<br>`   **`<br>`  * *`<br>` *  *`<br>`*****` |
+| **08** | Inverted Right Triangle Outline | Star | [`RightTriangleInvertedOutline.py`](./Star-Pattern/RightTriangleInvertedOutline.py) | `*****`<br>` *  *`<br>`  * *`<br>`   **`<br>`    *` |
 
 ---
 
 ## 🚀 How to Run
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/GOKUL05102003/Pattern-Programming.git
 cd Pattern-Programming
 ```
 
 ### 2. Common Run Commands
+
 Run any pattern script directly using Python:
 
 ```bash
@@ -88,10 +77,13 @@ python Star-Pattern/LeftTriangleInvertedOutline.py
 python Star-Pattern/RigthSideTriangle.py
 python Star-Pattern/RightInvertedTriangle.py
 python Star-Pattern/RightTriangleOutline.py
+python Star-Pattern/RightTriangleInvertedOutline.py
 ```
 
 ### 3. Provide Input
+
 When prompted, enter the number of rows (e.g., `5`):
+
 ```text
 Enter the no. of Rows: 5
 ```
