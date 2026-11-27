@@ -1,12 +1,28 @@
-
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python Logo" width="80" height="80" />
+
+# Python Daily Pattern Programming
+
+**A curated daily collection of pattern printing challenges to master loops, logic, and problem-solving in Python.**
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Python%203.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Badge" />
+  <img src="https://img.shields.io/badge/Skill-Problem%20Solving-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="Problem Solving Badge" />
+  <img src="https://img.shields.io/badge/Challenge-Daily%20Uploads-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Daily Badge" />
+  <br>
+  <img src="https://img.shields.io/badge/Status-Active-007ACC?style=for-the-badge" alt="Status Badge" />
+</p>
+
+[Browse Patterns](#-daily-patterns-tracker) • [Repository Structure](#-repository-structure) • [How to Run](#-how-to-run) • [Logic Cheat Sheet](#-logic-building-cheat-sheet)
+
+</div>
 
 ---
 
 ## 📌 About The Project
 
 Pattern printing is one of the best ways to build a rock-solid foundation in:
-
 - Nested loop mechanics (outer loops for rows, inner loops for columns/spaces)
 - Mathematical and index manipulation
 - Spatial reasoning and algorithmic thinking
@@ -55,14 +71,12 @@ Patterns/
 ## 🚀 How to Run
 
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/GOKUL05102003/Pattern-Programming.git
 cd Pattern-Programming
 ```
 
 ### 2. Common Run Commands
-
 Run any pattern script directly using Python:
 
 ```bash
@@ -81,9 +95,7 @@ python Star-Pattern/RightTriangleInvertedOutline.py
 ```
 
 ### 3. Provide Input
-
 When prompted, enter the number of rows (e.g., `5`):
-
 ```text
 Enter the no. of Rows: 5
 ```
